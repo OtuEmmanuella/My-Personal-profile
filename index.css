@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #DBD7D1;
+  color: #2C2431;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Typography */
+
+h3 {
+  font-size: 1.85rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 0.5em 0;
+}
+
+span {
+  font-weight: 700;
+
+}
+
+/* link */
+
+.github-url {
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #2C2431
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* images */
+
+.slack-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 1em;
+}
+
+.github-logo {
+  width: 50px;
+  height: 50px;
+  margin-top: 0.8em;
+}
+
+
+
+/* container */
+
+.container {
+  font-weight: 500;
+  background-color: #BFAFA2;
+  display: grid;
+  height: 100%;
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
+  place-items: center;
+  text-align: center;
+  align-items: center;
+  padding: 2em 1em;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* media queries */
+
+@media (min-width: 750px) {
+  p {
+    margin: 0.35em 0;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+  }
+
+  .slack-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
