@@ -34,13 +34,11 @@ span {
 
 .github-url {
   font-size: 1.2rem;
-}
-
-a {
   text-decoration: none;
   color: #2C2431
 }
-a:hover {
+
+.github-url :hover {
   text-decoration: underline;
 }
 
